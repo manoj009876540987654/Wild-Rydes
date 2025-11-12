@@ -3,7 +3,7 @@
 var WildRydes = window.WildRydes || {};
 
 (function scopeWrapper($) {
-    var signinUrl = '/signin.html';
+    var signinUrl = 'https://ap-south-1y578hbejs.auth.ap-south-1.amazoncognito.com/login?client_id=72gduv81m0jrfsmob4ppmgmbpf&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fmain.d2fgx0xm2vqsbh.amplifyapp.com';
 
     var poolData = {
         UserPoolId: _config.cognito.userPoolId,
@@ -171,3 +171,4 @@ var WildRydes = window.WildRydes || {};
         );
     }
 }(jQuery));
+
